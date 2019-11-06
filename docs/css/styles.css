@@ -413,6 +413,17 @@ footer {
         flex-direction: column;
     }
 
+    footer .row .col a {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    footer .row .col a img {
+        width: 20px;
+        margin-right: 10px;
+    }
+
 /*--- Animaciones ---*/
 @keyframes Entrada_1 {
     from {
