@@ -135,7 +135,7 @@ main {
             opacity: 0;
         }
 
-        main .text a {
+        main .text button {
             animation: Entrada_3 1s ease-in-out 1s forwards;
             opacity: 0; 
         }
@@ -306,10 +306,10 @@ main {
         height: 100%;
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 
     .banner-1 h2 {
-        margin-right: 260px;
         color: #fff;
     }
 
@@ -386,6 +386,7 @@ main {
         width: 100%;
         max-width: 45%;
         margin-top: 20px;
+        background: var(--DarkGray);
     }
 
 footer {
@@ -519,6 +520,10 @@ footer {
     .calculator_container input {
         width: 60px;
     }
+
+    .banner-2-container .row .col {
+        margin: 0 6px;
+    }
 }
 
 @media only screen and (max-width: 765px) {
@@ -590,5 +595,87 @@ footer {
         width: 50%;
         margin-top: 0;
     }
+
+    .calculator_container .row {
+        flex-direction: column;
+    }
+
+    .calculator_container .row .col-2 {
+        margin: 20px 40px;
+    }
+
+    .row .col-2 .btn {
+        top: 200px;
+    }
+
+
+    .banner-1-container {
+        padding: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-1-container img {
+        width: 300px;
+    }
+
+    .banner-2-container {
+        padding-top: 30px;
+        flex-direction: column;
+    }
+
+    .contacto input, .contacto textarea {
+        max-width: none;
+    }
+
+    footer .row {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .lista {
+        height: 1200px;
+    }
+
+    .banner-1-container h2 {
+        font-size: 30px;
+    }
+
+    .banner-2-container .row .col {
+        width: auto;
+        padding: 6px;
+    }
+
+    .banner-2-container .row .col img {
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .gestion .hex-img {
+        width: 300px;
+    }
+
+    .gestion .hex-img img {
+        width: 80px;
+    }
+
+    .banner-2-container .row .col {
+        padding: 0px;
+    }
+
+    .banner-2-container .row .col img {
+        width: 24px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    header nav img {
+        width: 100px;
+    }
     
+    header nav a {
+        font-size: 14px;
+    }
 }
