@@ -676,9 +676,9 @@ footer {
 }
 
 @media only screen and (max-width: 530px) {
-    .lista { height: 1200px; }
+    .list { height: 1200px; }
 
-    .banner-1-container h2 { font-size: 30px; }
+    .banner-1 .col-2 h2 { font-size: 30px; }
 
     .banner-2 .col-2 .row .col {
         width: auto;
